@@ -1,5 +1,7 @@
 # Modelo de Ising en dos dimensiones
 
+[English version](README.en.md)
+
 Trabajo práctico de Mecánica Estadística sobre redes de Ising bidimensionales, implementado en Python mediante el algoritmo de Metropolis.
 
 ## Contenido
@@ -29,8 +31,9 @@ Abrí `modelo_ising_2d.ipynb` en Jupyter o Google Colab y ejecutá las celdas en
 
 ## Equipo
 
-Grupo 15, Física Teórica 3, 2025 2C.
+Grupo 15, Mecánica Estadística,  2025 2C.
 
+- *Sammy Vallejo*
 - Eugenio Andrés Della Valle
 - Abraham Machicado
-- Sammy Vallejo
+
