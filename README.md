@@ -1,16 +1,16 @@
-# Modelo de Ising en dos dimensiones
+# Two-Dimensional Ising Model
 
-[English version](README.en.md)
+[Español](README.es.md)
 
-Trabajo práctico de Mecánica Estadística sobre redes de Ising bidimensionales, implementado en Python mediante el algoritmo de Metropolis.
+A Statistical Mechanics computational project studying two-dimensional Ising lattices with the Metropolis algorithm.
 
-## Contenido
+## Contents
 
-El notebook desarrolla simulaciones para redes cuadradas y hexagonales con condiciones de contorno periódicas. Calcula y analiza observables termodinámicos, entre ellos la energía, la magnetización, la susceptibilidad y el calor específico, en función de la temperatura y del tamaño de la red. También explora la termalización y el comportamiento de los estados de espín a distintas temperaturas.
+The notebook simulates square and hexagonal lattices with periodic boundary conditions. It calculates and analyzes thermodynamic observables, including energy, magnetization, magnetic susceptibility, and specific heat, as functions of temperature and lattice size. It also explores thermalization and spin-state behavior at different temperatures.
 
-El desarrollo y las visualizaciones están en [`modelo_ising_2d.ipynb`](modelo_ising_2d.ipynb).
+The implementation and visualizations are in [`modelo_ising_2d_en.ipynb`](modelo_ising_2d_en.ipynb). The [Spanish notebook](modelo_ising_2d.ipynb) is also available.
 
-## Requisitos
+## Requirements
 
 - Python 3
 - NumPy
@@ -19,21 +19,22 @@ El desarrollo y las visualizaciones están en [`modelo_ising_2d.ipynb`](modelo_i
 - SciPy
 - tqdm
 
-## Ejecución
+## Running the notebook
 
-Instalá las dependencias:
+Install the dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-Abrí `modelo_ising_2d.ipynb` en Jupyter o Google Colab y ejecutá las celdas en orden. Algunas simulaciones usan redes grandes y muchas iteraciones, por lo que pueden requerir bastante tiempo y memoria.
+Open `modelo_ising_2d_en.ipynb` in Jupyter or Google Colab and run the cells in order. Some simulations use large lattices and many iterations, so they may require significant time and memory.
 
-## Equipo
+The notebook includes saved plots from the original runs; their embedded axis labels remain in Spanish. Re-running the cells regenerates them with English labels.
 
-Grupo 15, Mecánica Estadística,  2025 2C.
+## Team
+
+Group 15, Statistical Mechanics, 2025 (second semester).
 
 - *Sammy Vallejo*
 - Eugenio Andrés Della Valle
 - Abraham Machicado
-
